@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualNetworks_corevnetwepd_vnet_name": {
+      "value": "corevnetwepd-vnet"
+    },
+    "virtualNetworks_tntvnetwepd_vnet_name": {
+      "value": "tntvnetwepd-vnet"
+    },
+    "subnets_sncorevnetwepd_sql_name": {
+      "value": "corevnetsubnetwepd-sql"
+    },
+    "subnets_sncorevnetwepd_brk_name": {
+      "value": "corevnetsubnetwepd-brk"
+    },
+    "subnets_sncorevnetwepd_rdp_name": {
+      "value": "corevnetsubnetwepd-gw"
+    },
+    "subnets_sncorevnetwepd_jump_name": {
+      "value": "corevnetsubnetwepd-jump"
+    },
+    "subnets_sncorevnetwepd_admin_name": {
+      "value": "corevnetsubnetwepd-admin"
+    },
+    "subnets_sncorevnetwepd_tenant_name": {
+      "value": "corevnetsubnetwepd-tenant"
+    },
+    "subnets_sntntvnetwepd_tenant101_name": {
+      "value": "corevnetsubnetwepd-tenant101"
+    },
+    "virtualNetworkPeerings_erpdcpeering_name": {
+      "value": "erpdcpeering"
+    },
+    "virtualNetworkPeerings_erptntpeering_name": {
+      "value": "erptntpeering"
+    },
+    "cicdtestvmstgType": {
+      "value": "Standard_LRS"
+    },
+    "CICDTESTName": {
+      "value": "c34v"
+    },
+    "CICDTESTAdminUserName": {
+      "value": "c34v"
+    },
+    "CICDTESTAdminPassword": {
+      "value": "#Service.123!"
+    }
+  }
+}
